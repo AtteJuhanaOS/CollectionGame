@@ -4,21 +4,16 @@ using UnityEngine;
 
 public class KeyScript : MonoBehaviour {
 
-    
 
-    void OnCollisionEnter(Collision PlayerObject)
+    private void OnTriggerEnter(Collider PlayerObject)
     {
         if (PlayerObject.CompareTag("Player"))
         {
             PlayerObject.GetComponent<PlayerScript>().hasKey = true;
 
-                
-            
-
-            Destroy();
+            Destroy(gameObject);
         }
     }
-
 
 	// Use this for initialization
 	void Start () {
