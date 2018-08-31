@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Firework
+  - Key
   layers:
   - Default
   - TransparentFX
