@@ -21,7 +21,6 @@ public class GateScript : MonoBehaviour
 		if(openDoor==true)
             if(GateDoorObject1.transform.rotation.z <0.707)
             {
-                Debug.Log(GateDoorObject1.transform.rotation.z);
                 doorRotation1 = doorRotation1 + (Time.deltaTime * 25);
                 doorRotation2 = doorRotation2 - (Time.deltaTime * 25);
                 GateDoorObject1.transform.localRotation = Quaternion.Euler(-90, 0, doorRotation1);
