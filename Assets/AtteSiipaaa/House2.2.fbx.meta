@@ -1,52 +1,28 @@
 fileFormatVersion: 2
-guid: 8f264e1dec8a64045b7727aec2c3913c
+guid: adfeb2120f1496248ad6215aa4d9c7c2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Cube
-    100004: Cube_001
-    100006: Cube_002
-    100008: Cube_003
-    100010: Cube_004
-    100012: Empty
-    100014: Cube_005
-    100016: Cube_006
-    400000: //RootNode
-    400002: Cube
-    400004: Cube_001
-    400006: Cube_002
-    400008: Cube_003
-    400010: Cube_004
-    400012: Empty
-    400014: Cube_005
-    400016: Cube_006
-    2100000: unnamed
+    100000: Cube
+    100002: Cube.001
+    100004: Cube.002
+    100006: //RootNode
+    400000: Cube
+    400002: Cube.001
+    400004: Cube.002
+    400006: //RootNode
+    2100000: Material.001
     2100002: Material
+    2100004: Material.002
     2300000: Cube
-    2300002: Cube_001
-    2300004: Cube_002
-    2300006: Cube_003
-    2300008: Cube_004
-    2300010: Cube_005
-    2300012: Cube_006
+    2300002: Cube.001
+    2300004: Cube.002
     3300000: Cube
-    3300002: Cube_001
-    3300004: Cube_002
-    3300006: Cube_003
-    3300008: Cube_004
-    3300010: Cube_005
-    3300012: Cube_006
-    4300000: Cube_004
-    4300002: Cube_003
-    4300004: Cube_002
-    4300006: Cube_001
-    4300008: Cube
-    4300010: Cube_005
-    4300012: Cube_006
-    7400000: Default Take
-    9500000: //RootNode
-    2186277476908879412: ImportLogs
+    3300002: Cube.001
+    3300004: Cube.002
+    4300000: Cube.002
+    4300002: Cube.001
+    4300004: Cube
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -99,7 +75,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -124,7 +100,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
